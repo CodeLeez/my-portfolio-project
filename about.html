@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Elizabeth's coding journey to becoming a professional web developer."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -25,11 +29,40 @@
       src="https://kit.fontawesome.com/38d120a438.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>About Elizabeth | Front-end Engineer</title>
   </head>
   <body>
-    <a href="/">Back to Home Page</a>
-    <a href="work.html">Work Page</a>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Elizabeth's logo"
+          />
+          <img
+            src="images/small-logo.jpg"
+            class="logo d-block d-md-none"
+            alt="ELizabeth's logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home </a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Elizabeth">About </a>
+          </li>
+          <li>
+            <a href="/work.html" title="Elizabeth's Work">Work </a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Elizabeth">Contact </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -42,7 +75,7 @@
               layout, writing code to build the functionality, testing
               thoroughly.
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -50,5 +83,62 @@
         </div>
       </div>
     </div>
+
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Contact Elizabeth"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:elizabethchigudu@gmail.com"
+          class="email-link"
+          title="Email Elizabeth"
+        >
+          elizabethchigudu@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://www.instagram.com/elizabeth"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a
+          href="https://www.github.com/codeleez"
+          target="_blank"
+          title="Github Profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/elizabeth "
+          target="_blank"
+          title="Linkedin Profile"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        👩‍💻 This project was coded by Elizabeth Chigudu and is
+        <a
+          href="https://github.com/CodeLeez/my-portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
