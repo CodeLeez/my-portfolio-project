@@ -1,5 +1,5 @@
 :root {
-  --branding-color: goldenrod;
+  --branding-color: aqua;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", serif;
@@ -7,6 +7,9 @@
 
 body {
   font-family: var(--default-font-family);
+  background-image: url(/images/bodybg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1,
@@ -38,16 +41,17 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
   text-align: center;
   padding: 80px 20px;
+  background: #d8d8d0;
 }
 
 .hero p {
+  font-family: var(--heading-font-family);
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: rgb(137, 87, 38);
 }
 
 .hero h2 {
@@ -55,6 +59,11 @@ p {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+  color: rgb(142, 94, 35);
+}
+
+.hero h1 {
+  color: rgb(56, 179, 179);
 }
 
 .btn-branding {
