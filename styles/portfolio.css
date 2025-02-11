@@ -1,5 +1,5 @@
 :root {
-  --branding-color: aqua;
+  --branding-color: rgb(45, 174, 174);
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", serif;
@@ -7,9 +7,6 @@
 
 body {
   font-family: var(--default-font-family);
-  background-image: url(/images/bodybg3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 h1,
@@ -43,7 +40,7 @@ p {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  /*background: #d46b72;*/
+  background: rgb(30, 130, 130);
 }
 
 .hero p {
@@ -59,7 +56,7 @@ p {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
-  color: white;
+  color: rgb(203, 183, 183);
 }
 
 .hero h1 {
@@ -73,6 +70,11 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+footer .btn-branding:hover {
+  color: var(--branding-color);
+  background: white;
 }
 
 .btn-branding-outline {
@@ -116,7 +118,20 @@ nav a {
 
 nav li.active a,
 nav a:hover {
-  color: rgb(129, 79, 19);
+  color: rgb(46, 176, 176);
+}
+
+.heading {
+  font-size: 24px;
+}
+
+.projects {
+  font-size: 52px;
+}
+
+.btn-branding-outline:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 footer {
@@ -217,4 +232,8 @@ footer .social-links a:hover {
 
 .content {
   margin: 30px;
+}
+
+footer .contact-box {
+  background: rgb(240, 245, 245);
 }
