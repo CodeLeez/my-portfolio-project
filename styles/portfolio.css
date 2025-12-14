@@ -1,5 +1,5 @@
 :root {
-  --branding-color: rgb(45, 174, 174);
+  --branding-color: rgb(230, 247, 252);
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", serif;
@@ -10,6 +10,12 @@ body {
 }
 
 .bodyimage {
+  background-image: url("/images/pfbg2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-background {
   background-image: url("/images/pfbg2.jpg");
   background-size: cover;
   background-position: center;
@@ -78,12 +84,17 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: rgb(102, 101, 101);
   border-radius: 4px;
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  color: rgb(102, 101, 101) !important;
+  background: white;
 }
 
 footer .btn-branding:hover {
