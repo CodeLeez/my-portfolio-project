@@ -21,6 +21,12 @@ body {
   background-position: center;
 }
 
+.work-background {
+  background-image: url("/images/pfbg2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 h1,
 h2,
 h3,
