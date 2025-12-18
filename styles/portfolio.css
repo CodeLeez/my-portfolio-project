@@ -27,6 +27,12 @@ body {
   background-position: center;
 }
 
+.contact-image {
+  background-image: url("/images/pfbg2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 h1,
 h2,
 h3,
@@ -109,8 +115,9 @@ footer .btn-branding:hover {
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: white;
+  background: rgb(111, 118, 120);
+
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -161,8 +168,8 @@ nav a:hover {
 }
 
 .btn-branding-outline:hover {
-  color: white;
-  background: var(--branding-color);
+  color: rgb(111, 118, 120);
+  background: white;
 }
 
 footer {
@@ -210,7 +217,7 @@ footer .social-links a:hover {
 }
 
 footer a {
-  color: rgb(240, 250, 255);
+  color: rgb(10, 11, 11);
   text-decoration: none;
 }
 
